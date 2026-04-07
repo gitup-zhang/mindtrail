@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
+*.db-shm
+*.db-wal
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+
+# Local temp files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Non-showcase files inside this folder
+core/models.py
+core/types.py
+core/vector/
+memory/hsg.py
+memory/reflect.py
+memory/scoring.py
+memory/user_summary.py
+ops/compress.py
+ops/extract.py
+ops/ingest.py
+temporal_graph/query.py
+temporal_graph/store.py
+temporal_graph/timeline.py
+migrations/001_initial.sql

@@ -1,0 +1,6 @@
+httpx
+markdownify
+mammoth
+numpy
+pypdf
+python-dotenv
